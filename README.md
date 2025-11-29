@@ -4,19 +4,15 @@ A simple and clean To-Do List web app that runs directly on your local machine. 
 
 This project includes:
 
-Add tasks with title, date, and time
-
-Mark tasks as completed
-
-Filter by All / Active / Completed
-
-Clear completed tasks
-
-Automatic saving in browser
-
-100% offline and private
+- Add tasks with title, date, and time
+- Mark tasks as completed
+- Filter by All / Active / Completed
+- Clear completed tasks
+- Automatic saving in browser
+- 100% offline and private
 
 📁 Project Structure
+
 ```pgsql
 todo-app/
 │
@@ -24,14 +20,14 @@ todo-app/
 ├── style.css
 └── script.js
 ```
+
 🚀 How to Run
+
 Option 1: Open in Browser (recommended)
 
-Download or clone this repository
-
-Open index.html by double-clicking
-
-Start adding tasks
+- Download or clone this repository
+- Open index.html by double-clicking
+- Start adding tasks
 
 Option 2: Run with a Local Server
 
@@ -58,11 +54,9 @@ Your tasks stay even after refresh or browser restart.
 
 ✔ Filters
 
-All
-
-Active
-
-Completed
+- All
+- Active
+- Completed
 
 ✔ Mark Complete / Delete
 
@@ -78,6 +72,7 @@ One click removes all completed tasks.
 Responsive and minimal interface designed to be easy and comfortable to use.
 
 🧩 Code Overview
+
 index.html
 
 Defines the user interface layout.
@@ -90,21 +85,16 @@ script.js
 
 Implements:
 
-Task creation
-
-Task storage (localStorage)
-
-Rendering
-
-Filtering
-
-Completion logic
-
-Deletion
-
-Cleanup
+- Task creation
+- Task storage (localStorage)
+- Rendering
+- Filtering
+- Completion logic
+- Deletion
+- Cleanup
 
 Tasks are stored as:
+
 ```json
 {
   "id": 1732561812345,
